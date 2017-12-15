@@ -11,6 +11,23 @@ Template: dt-the7
 $heading-font: "Playfair Display", Helvetica, Arial, Verdana, sans-serif;
 $body-normal-font: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
 
+$main-color: #1e252b;
+$gray-color: #9a9a9a;
+$gold-color: #efcb73;
+
+$font-size-xlg: 46px;
+$font-size-lg: 36px;
+$font-size-md: 24px;
+$font-size-default: 16px;
+$font-size-sm: 12px;
+
+$font-leading-xlg: 56px;
+$font-leading-lg: 44px;
+$font-leading-md: 32px;
+$font-leading-default: 26px;
+$font-leading-sm: 19px;
+
+
 html, body, body.page, .wf-container > *{
     font-family: $body-normal-font;
 }
