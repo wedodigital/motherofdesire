@@ -1,69 +1,35 @@
 @font-face {
-    font-family:'Gotham Book';
-    src: url("fonts/gotham-book.eot");
-    src: url("fonts/gotham-book.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-book.woff") format('woff'),
-         url("fonts/gotham-book.ttf") format('truetype');
-    font-weight: normal;
+    font-family: 'Futura PT';
+    src: url('fonts/fonts/FuturaPT-BookObl.woff2') format('woff2'),
+        url('fonts/FuturaPT-BookObl.woff') format('woff'),
+        url('fonts/FuturaPT-BookObl.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('fonts/FuturaPT-Bold.woff') format('woff'),
+        url('fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family:'Gotham Book Italic';
-    src: url("fonts/gotham-bookitalic.eot");
-    src: url("fonts/gotham-bookitalic.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-bookitalic.woff") format('woff'),
-         url("fonts/gotham-bookitalic.ttf") format('truetype');
-    font-weight: normal;
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Book.woff2') format('woff2'),
+        url('fonts/FuturaPT-Book.woff') format('woff'),
+        url('fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family:'Gotham Light';
-    src: url("fonts/gotham-light.eot");
-    src: url("fonts/gotham-light.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-light.woff") format('woff'),
-         url("fonts/gotham-light.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'Gotham Medium';
-    src: url("fonts/gotham-medium.eot");
-    src: url("fonts/gotham-medium.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-medium.woff") format('woff'),
-         url("fonts/gotham-medium.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'Gotham Medium Italic';
-    src: url("fonts/gotham-mediumitalic.eot");
-    src: url("fonts/gotham-mediumitalic.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-mediumitalic.woff") format('woff'),
-         url("fonts/gotham-mediumitalic.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'Gotham Bold';
-    src: url("fonts/gotham-bold.eot");
-    src: url("fonts/gotham-bold.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-bold.woff") format('woff'),
-         url("fonts/gotham-bold.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'Gotham Bold Italic';
-    src: url("fonts/gotham-bolditalic.eot");
-    src: url("fonts/gotham-bolditalic.eot?#iefix") format('embedded-opentype'),
-         url("fonts/gotham-bolditalic.woff") format('woff'),
-         url("fonts/gotham-bolditalic.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-BoldObl.woff2') format('woff2'),
+        url('fonts/FuturaPT-BoldObl.woff') format('woff'),
+        url('fonts/FuturaPT-BoldObl.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
 }

@@ -9,8 +9,7 @@ Template: dt-the7
 */
 
 $heading-font: "Playfair Display", Helvetica, Arial, Verdana, sans-serif;
-$body-normal-font: "Gotham Book", Helvetica, Arial, Verdana, sans-serif;
-$body-bold-font: "Gotham Bold", Helvetica, Arial, Verdana, sans-serif;
+$body-normal-font: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
 
 html, body, body.page, .wf-container > *{
     font-family: $body-normal-font;
@@ -42,10 +41,7 @@ html, body, body.page, .wf-container > *{
     color: #EBCC75;
 }
 
-b, strong{
-	font-family: $body-bold-font;
-	font-weight: 400;
-}
+
 .kern, .kern *{
     letter-spacing: 2px;
 }
@@ -194,7 +190,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 
 .ult-ib-effect-style2 {
     h2{
-        font-family: $body-bold-font !important;
+        font-family: $body-normal-font !important;
     }
 }
 

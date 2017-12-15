@@ -9,10 +9,10 @@ License: This WordPress theme is comprised of two parts: (1) The PHP code and in
 Template: dt-the7
 */
 html, body, body.page, .wf-container > * {
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif; }
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif; }
 
 .main-nav > li > a .menu-text, .mobile-main-nav li > a .menu-text, .main-nav .sub-nav > li > a .menu-text {
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
   letter-spacing: 2px; }
 
 .mobile-main-nav li > a .menu-text, .main-nav .sub-nav > li > a .menu-text {
@@ -32,10 +32,6 @@ html, body, body.page, .wf-container > * {
 .gold {
   color: #EBCC75; }
 
-b, strong {
-  font-family: "Gotham Bold", Helvetica, Arial, Verdana, sans-serif;
-  font-weight: 400; }
-
 .kern, .kern * {
   letter-spacing: 2px; }
 
@@ -49,7 +45,7 @@ h4 {
   font-family: "Playfair Display", Helvetica, Arial, Verdana, sans-serif; }
 
 h3, h5, h6 {
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif; }
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif; }
 
 /**
 *
@@ -65,7 +61,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
   background-color: #ffffff;
   border-radius: 0;
   padding: 0 10px !important;
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif !important;
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important;
   font-size: 16px !important; }
 
 .gform_wrapper .gform_footer {
@@ -86,7 +82,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
   margin-top: -25px; }
 
 #main .gform_wrapper textarea, .gform_wrapper .top_label .gfield_label {
-  font: normal 13px/24px "Gotham Book", Helvetica, Arial, Verdana, sans-serif, Helvetica, Arial, Verdana, sans-serif;
+  font: normal 13px/24px "Futura PT", Helvetica, Arial, Verdana, sans-serif, Helvetica, Arial, Verdana, sans-serif;
   text-transform: uppercase; }
 
 /**
@@ -111,7 +107,7 @@ blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-sty
 button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widget .dt-form .dt-btn, input[type="button"], input[type="reset"], .wpcf7-submit, .nsu-submit, .dt-wc-btn, input#place_order, .woocommerce-Reviews .submit, input.button, .cart-btn-below-img .woo-buttons a, input[name="save_address"], .wc-layout-list .woo-buttons a, .post-password-form input[type="submit"], .mc4wp-form input[type="submit"], div.mc4wp-form button[type="submit"], .tml-submit-wrap input[type="submit"], .wpcf7-form input[type="submit"], input[type="submit"]:not([name="update_cart"]) {
   color: #1e252b;
   background-color: #efcb73;
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif !important;
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important;
   text-transform: uppercase !important;
   letter-spacing: 2px;
   border-radius: 0 !important;
@@ -120,16 +116,16 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
   margin: 0 !important; }
 
 .vc_btn3 {
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif !important;
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important;
   text-transform: uppercase; }
 
 /***
 *
-*Service Box css
+* Service Box css
+* Interactive banner 2 block, using style 2 
 *
 **/
 .ult-new-ib {
-  
   /* .ult-new-ib-title:before {
       content: "";
       width: 6px;
@@ -155,9 +151,8 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
     -moz-text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1882352941);
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1882352941); }
 
-/* Interactive banner 2 block, using style 2 */
 .ult-ib-effect-style2 h2 {
-  font-family: "Gotham Bold", Helvetica, Arial, Verdana, sans-serif !important; }
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important; }
 
 .ult-ib-effect-style2:hover .ult-new-ib-title {
   transform: translate3d(0, -50%, 0) !important;
@@ -233,7 +228,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 .testimonial-desc {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "Gotham Book", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
   font-weight: 400 !important; }
 
 span.text-primary {
