@@ -8,12 +8,15 @@ License: This WordPress theme is comprised of two parts: (1) The PHP code and in
 Template: dt-the7
 */
 
+$heading-font: "Playfair Display", Helvetica, Arial, Verdana, sans-serif;
+$body-normal-font: "Gotham Book", Helvetica, Arial, Verdana, sans-serif;
+$body-bold-font: "Gotham Bold", Helvetica, Arial, Verdana, sans-serif;
 
 html, body, body.page, .wf-container > *{
-    font-family: "Gotham Book";
+    font-family: $body-normal-font;
 }
 .main-nav > li > a .menu-text,.mobile-main-nav li > a .menu-text,.main-nav .sub-nav > li > a .menu-text {
-    font-family: "Gotham Book";
+    font-family: $body-normal-font;
   	letter-spacing: 2px;
 }
 
@@ -32,7 +35,7 @@ html, body, body.page, .wf-container > *{
 **/
 
 .playfair, .playfair *{
-        font-family: "Playfair Display";
+        font-family: $heading-font;
 }
 
 .gold{
@@ -40,7 +43,7 @@ html, body, body.page, .wf-container > *{
 }
 
 b, strong{
-	font-family: "Gotham Bold";
+	font-family: $body-bold-font;
 	font-weight: 400;
 }
 .kern, .kern *{
@@ -56,10 +59,10 @@ b, strong{
 }
 
 h4{
-    font-family: "Playfair Display";
+    font-family: $heading-font;
 }
 h3,h5,h6{
-	font-family: "Gotham Book";
+	font-family: $body-normal-font;
 }
 
 
@@ -79,7 +82,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
     background-color: #ffffff;
     border-radius: 0;
     padding: 0 10px !important;
-    font-family: "Gotham Book" !important;
+    font-family: $body-normal-font !important;
     font-size: 16px !important;
 }
 
@@ -107,9 +110,10 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
 
 
 #main .gform_wrapper textarea, .gform_wrapper .top_label .gfield_label {
-    font: normal 13px / 24px "Gotham Book", Helvetica, Arial, Verdana, sans-serif;
+    font: normal 13px / 24px $body-normal-font, Helvetica, Arial, Verdana, sans-serif;
     text-transform: uppercase;
 }
+
 /**
 *
 *QUOTE CSS
@@ -118,7 +122,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
 
 blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-style-widget, .block-style-widget {
     background-color: transparent;
-    font-family: "Playfair Display";
+    font-family: $heading-font;
     font-style: italic;
     text-transform: none;
     border-left: 4px #efcb73 solid;
@@ -134,7 +138,7 @@ blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-sty
 button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widget .dt-form .dt-btn, input[type="button"], input[type="reset"], .wpcf7-submit, .nsu-submit, .dt-wc-btn, input#place_order, .woocommerce-Reviews .submit, input.button, .cart-btn-below-img .woo-buttons a, input[name="save_address"], .wc-layout-list .woo-buttons a, .post-password-form input[type="submit"], .mc4wp-form input[type="submit"], div.mc4wp-form button[type="submit"], .tml-submit-wrap input[type="submit"], .wpcf7-form input[type="submit"], input[type="submit"]:not([name="update_cart"]) {
     color: #1e252b;
     background-color: #efcb73;
-    font-family: "Gotham Book" !important;
+    font-family: $body-normal-font !important;
     text-transform: uppercase !important;
     letter-spacing: 2px;
     border-radius: 0 !important;
@@ -144,7 +148,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 }
 
 .vc_btn3{
-    font-family: "Gotham Book" !important;
+    font-family: $body-normal-font !important;
     text-transform: uppercase;
 }
 
@@ -154,39 +158,12 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 *Service Box css
 *
 **/
-.service_box{
-	position: relative;
-	padding: 400px 0;
+
+/* Interactive banner 2 block, using style 2 */
+.ult-ib-effect-style2:hover .ult-new-ib-title {
+    transform: translate3d(0,0px,0);
 }
 
-.service_box h2 {
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    font-family: "Gotham Bold";
-    text-transform: uppercase;
-    color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 0;
-    padding-top: 50%;
-    display: table;
-}
-
-.service_box h2:before {
-    content: "";
-    width: 6px;
-    margin-right: 15px;
-    background: #efcb73;
-    height: 46px;
-    right: 0;
-    left: 0;
-    display: inline-block;
-    position: absolute;
-    margin: 0 180px;
-}
 
 /**
 *
@@ -198,7 +175,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 }
 
 .blog-carousel-shortcode.blog-carousel-shortcode-id-1 .entry-title a, .blog-carousel-shortcode.blog-carousel-shortcode-id-1.owl-carousel .entry-title a {
-    font-family: "Playfair Display";
+    font-family: $heading-font;
     font-style: italic;
 }
 
@@ -220,7 +197,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
     color: #efcb73;
     -webkit-text-fill-color: #efcb73;
 
-    font-family: "Playfair Display";
+    font-family: $heading-font;
     font-style: italic;
 }
 
@@ -258,7 +235,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 }
 
 .testimonial-content {
-    font-family: "Playfair Display";
+    font-family: $heading-font;
     font-style: italic;
     text-align: center;
     font-size: 24px;
@@ -274,7 +251,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 .testimonial-desc {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Gotham Book";
+    font-family: $body-normal-font;
     font-weight: 400 !important;
 }
 
