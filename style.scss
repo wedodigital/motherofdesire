@@ -87,6 +87,8 @@ h3,h5,h6{
     }
 }
 
+
+
 /**
 *
 *Gravity Form CSS
@@ -146,7 +148,7 @@ blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-sty
     font-family: $heading-font;
     font-style: italic;
     text-transform: none;
-    border-left: 4px #efcb73 solid;
+    border-left: 4px $gold-color solid;
     border-radius: 0;
     margin: 30px;
 }
@@ -158,7 +160,7 @@ blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-sty
 **/
 button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widget .dt-form .dt-btn, input[type="button"], input[type="reset"], .wpcf7-submit, .nsu-submit, .dt-wc-btn, input#place_order, .woocommerce-Reviews .submit, input.button, .cart-btn-below-img .woo-buttons a, input[name="save_address"], .wc-layout-list .woo-buttons a, .post-password-form input[type="submit"], .mc4wp-form input[type="submit"], div.mc4wp-form button[type="submit"], .tml-submit-wrap input[type="submit"], .wpcf7-form input[type="submit"], input[type="submit"]:not([name="update_cart"]) {
     color: #1e252b;
-    background-color: #efcb73;
+    background-color: $gold-color;
     font-family: $body-normal-font !important;
     text-transform: uppercase !important;
     letter-spacing: 2px;
@@ -182,25 +184,15 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 **/
 
 .ult-new-ib {
-    
-    /* .ult-new-ib-title:before {
-        content: "";
-        width: 6px;
-        height: 46px;
-        top: -7px;
-        right: 0px;
-        left: -20px;
-        display: inline-block;
-        position: absolute;
-        background: rgb(239, 203, 115);
-        margin: 0px 180px;
-    } */
+
+    margin-bottom: 0 !important;
+    max-height: 600px !important;
 
     .ult-new-ib-title {
-        font-size: 36px !important;
+        font-size: $font-size-lg !important;
+        font-weight: 700 !important;
         line-height: 35px !important;
         max-width: 500px;
-        line-height: 35px;
         right: 0 !important;
         margin-left: auto !important;
         margin-right: auto !important;
@@ -237,7 +229,6 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 
 .blog-carousel-shortcode.blog-carousel-shortcode-id-1 .entry-title a, .blog-carousel-shortcode.blog-carousel-shortcode-id-1.owl-carousel .entry-title a {
     font-family: $heading-font;
-    font-style: italic;
 }
 
 
@@ -255,8 +246,8 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 }
 
 .blog-content.wf-td h3 a {
-    color: #efcb73;
-    -webkit-text-fill-color: #efcb73;
+    color: $gold-color;
+    -webkit-text-fill-color: $gold-color;
 
     font-family: $heading-font;
     font-style: italic;
@@ -296,11 +287,11 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 }
 
 .testimonial-content {
-    font-family: $heading-font;
+    font-family: $body-normal-font;
     font-style: italic;
     text-align: center;
-    font-size: 24px;
-    line-height: 37px;
+    font-size: $font-size-md;
+    line-height: $font-leading-md;
 }
 
 .testimonial-desc {
@@ -316,17 +307,44 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
     font-weight: 400 !important;
 }
 
+.testimonial-vcard .text-secondary{
+    font-weight: 400;
+}
+
+.dt-testimonials-shortcode .testimonial-vcard .text-primary{
+    font-family: $body-normal-font;
+    text-transform: uppercase;
+}
+
 span.text-primary{
-    color: #efcb73 !important;
+    color: $gold-color !important;
 }
 
 span.text-secondary.color-secondary{
-    color: #9da19e !important;
+    color: $gray-color !important;
 }
 
 
 .bottom-text-block a{
     margin-right: 10px;
+}
+
+
+/**
+*
+*NEWSLETTER CSS
+*
+**/
+
+.newsletter{
+    background: url(images/mod-newletter-image.jpg) no-repeat;
+    background-position: left;
+    margin: -35px -15px;
+    padding: 40px 0;
+    
+    .wpb_content_element{
+        margin-bottom: 0;
+    }
 }
 
 
@@ -359,6 +377,15 @@ h1.fancy-title.entry-title.start-animation-done.start-animation {
 *MEDIA CSS
 *
 **/
+
+/*From Laptop to Desktop*/
+@media screen and (min-width: 1250px) and (max-width: 1640px){
+    .ult-new-ib {
+        max-height: 520px !important;
+    }
+}
+
+
 /*BEFORE RESPONSIVE BREAKING POINT*/
 @media screen and (min-width: 991px){
 }
@@ -394,7 +421,14 @@ h1.fancy-title.entry-title.start-animation-done.start-animation {
 
 /*IPHONE 6 VERTICAL VIEW*/
 @media screen and (max-width: 375px){
-    
+    h1, .h1-size, .entry-title.h1-size, .dt-accordion-h1-size .wpb_accordion_header > a {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2, .h2-size, .entry-title.h2-size, h1.entry-title, .dt-accordion-h2-size .wpb_accordion_header > a {
+        font-size: $font-size-md;
+        line-height: 32px;
+    }
 }
 
 /*IPHONE 5 VERTICAL VIEW*/
