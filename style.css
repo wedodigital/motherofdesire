@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/*
+Theme Name: We Do Digital
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site ΓÇô big or small. From huge corporate portals to studio or personal sites ΓÇô The7 will become a great foundation for your next project!
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+Template: dt-the7
+*/
+
+/*
+*
+*BODY CSS
+*
+**/
+html, body, body.page, .wf-container > * {
+  font-family: "Gotham Book"; }
+
+.main-nav > li > a .menu-text, .mobile-main-nav li > a .menu-text, .main-nav .sub-nav > li > a .menu-text {
+  font-family: "Gotham Book";
+  letter-spacing: 2px; }
+
+.mobile-main-nav li > a .menu-text, .main-nav .sub-nav > li > a .menu-text {
+  letter-spacing: 0px; }
+
+.sub-nav {
+  box-shadow: none; }
+
+/**
+*
+*Typography CSS
+*
+**/
+.playfair, .playfair * {
+  font-family: "Playfair Display"; }
+
+.gold {
+  color: #EBCC75; }
+
+b, strong {
+  font-family: "Gotham Bold";
+  font-weight: 400; }
+
+.kern, .kern * {
+  letter-spacing: 2px; }
+
+.uppercase, .uppercase * {
+  text-transform: uppercase; }
+
+.white-scheme, .white-scheme * {
+  color: white; }
+
+h4 {
+  font-family: "Playfair Display"; }
+
+h3, h5, h6 {
+  font-family: "Gotham Book"; }
+
+/**
+*
+*Gravity Form CSS
+*
+**/
+.gform_wrapper .top_label .nolabel .gfield_label {
+  display: none !important; }
+
+input[type="text"], input[type="search"], input[type="tel"], input[type="url"], input[type="email"], input[type="number"], input[type="date"], input[type="range"], input[type="password"], select, textarea, .wpcf7-number {
+  color: #1e252b;
+  border-color: transparent;
+  background-color: #ffffff;
+  border-radius: 0;
+  padding: 0 10px !important;
+  font-family: "Gotham Book" !important;
+  font-size: 16px !important; }
+
+.gform_wrapper .gform_footer {
+  text-align: center;
+  margin-top: 0; }
+
+.greybox input[type="text"], .greybox input[type="email"] {
+  background-color: #efeeea; }
+
+#gform_3 .gform_footer {
+  text-align: right; }
+
+.gform_wrapper .top_label li.gfield.gf_right_half {
+  padding-right: 0 !important; }
+
+.desirexxform-button-mini-description .wpb_wrapper {
+  font-size: 10px;
+  margin-top: -25px; }
+
+#main .gform_wrapper textarea, .gform_wrapper .top_label .gfield_label {
+  font: normal 13px / 24px "Gotham Book", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: uppercase; }
+
+/**
+*
+*QUOTE CSS
+*
+**/
+blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-style-widget, .block-style-widget {
+  background-color: transparent;
+  font-family: "Playfair Display";
+  font-style: italic;
+  text-transform: none;
+  border-left: 4px #efcb73 solid;
+  border-radius: 0;
+  margin: 30px; }
+
+/**
+*
+*BUTTONS CSS
+*
+**/
+button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widget .dt-form .dt-btn, input[type="button"], input[type="reset"], .wpcf7-submit, .nsu-submit, .dt-wc-btn, input#place_order, .woocommerce-Reviews .submit, input.button, .cart-btn-below-img .woo-buttons a, input[name="save_address"], .wc-layout-list .woo-buttons a, .post-password-form input[type="submit"], .mc4wp-form input[type="submit"], div.mc4wp-form button[type="submit"], .tml-submit-wrap input[type="submit"], .wpcf7-form input[type="submit"], input[type="submit"]:not([name="update_cart"]) {
+  color: #1e252b;
+  background-color: #efcb73;
+  font-family: "Gotham Book" !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  border-radius: 0 !important;
+  padding: 10px 20px !important;
+  font-weight: 400 !important;
+  margin: 0 !important; }
+
+.vc_btn3 {
+  font-family: "Gotham Book" !important;
+  text-transform: uppercase; }
+
+/***
+*
+*Service Box css
+*
+**/
+.service_box {
+  position: relative;
+  padding: 400px 0; }
+
+.service_box h2 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Gotham Bold";
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  padding-top: 50%;
+  display: table; }
+
+.service_box h2:before {
+  content: "";
+  width: 6px;
+  margin-right: 15px;
+  background: #efcb73;
+  height: 46px;
+  right: 0;
+  left: 0;
+  display: inline-block;
+  position: absolute;
+  margin: 0 180px; }
+
+/**
+*
+*BLOG Carousel CSS
+*
+**/
+.blog-carousel-shortcode.blog-carousel-shortcode-id-1.content-bg-on.classic-layout-list article {
+  text-align: center; }
+
+.blog-carousel-shortcode.blog-carousel-shortcode-id-1 .entry-title a, .blog-carousel-shortcode.blog-carousel-shortcode-id-1.owl-carousel .entry-title a {
+  font-family: "Playfair Display";
+  font-style: italic; }
+
+.aligncenter {
+  text-align: center; }
+
+.iso-grid.iso-item-ready article, .load-wrap, .mode-grid article, body #load {
+  height: 100%;
+  background-color: #1e252b; }
+
+.blog-content.wf-td {
+  text-align: center; }
+
+.blog-content.wf-td h3 a {
+  color: #efcb73;
+  -webkit-text-fill-color: #efcb73;
+  font-family: "Playfair Display";
+  font-style: italic; }
+
+.comment-metadata, .comment-metadata a, .entry-meta a, .entry-meta span, .entry-meta a *, .single .entry-tags, .single .entry-tags a {
+  color: #adb0b6;
+  font-size: 10px; }
+
+.checkmark ul {
+  margin-top: 40px; }
+
+.checkmark ul li {
+  list-style: none;
+  padding-left: 25px;
+  margin-bottom: 25px; }
+
+.checkmark ul li:before {
+  content: "";
+  background: url(images/checkmark.png) no-repeat;
+  height: 49px;
+  width: 50px;
+  position: absolute;
+  left: 20px; }
+
+/**
+*
+*Testimonial CSS
+*
+**/
+.testimonial-item:not(.testimonial-item-slider), .testimonial-item .ts-viewport, .bg-on.team-container, .dt-team-shortcode.content-bg-on .team-container {
+  background-color: transparent; }
+
+.testimonial-content {
+  font-family: "Playfair Display";
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  line-height: 37px; }
+
+.testimonial-desc {
+  text-align: center;
+  width: 100%; }
+
+.testimonial-desc {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Gotham Book";
+  font-weight: 400 !important; }
+
+span.text-primary {
+  color: #efcb73 !important; }
+
+span.text-secondary.color-secondary {
+  color: #9da19e !important; }
+
+.bottom-text-block a {
+  margin-right: 10px; }
+
+/**
+*
+*POPUP CSS
+*
+**/
+.pum-theme-85, .pum-theme-default-theme {
+  background: url(images/popup-maker-bg-1.jpg) no-repeat;
+  background-size: cover; }
+
+/*Visual Composer*/
+.upb_video_class, .vc_row, .wpb_column, .wpb_row {
+  position: relative; }
+
+h1.fancy-title.entry-title.start-animation-done.start-animation {
+  background: #dab67a96;
+  padding: 40px 0;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 42px !important;
+  line-height: 52px !important; }
+
+/**
+*
+*MEDIA CSS
+*
+**/
+/*BEFORE RESPONSIVE BREAKING POINT*/
+/*RESPONSIVE BREAKING POINT*/
+/*iPAD Vertical View*/
+/*IPHONE 6 Plus HORIZONTAL VIEW*/
+/*IPHONE 6 HORIZONTAL VIEW*/
+/*IPHONE 5 HORIZONTAL VIEW*/
+/*IPHONE 6 Plus VERTICAL VIEW*/
+/*IPHONE 6 VERTICAL VIEW*/
+/*IPHONE 5 VERTICAL VIEW*/
+
+/*# sourceMappingURL=style.css.map */
