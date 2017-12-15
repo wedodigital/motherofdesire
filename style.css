@@ -128,9 +128,39 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 *Service Box css
 *
 **/
+.ult-new-ib {
+  /* .ult-new-ib-title:before {
+      content: "";
+      width: 6px;
+      height: 46px;
+      top: -7px;
+      right: 0px;
+      left: -20px;
+      display: inline-block;
+      position: absolute;
+      background: rgb(239, 203, 115);
+      margin: 0px 180px;
+  } */ }
+  .ult-new-ib .ult-new-ib-title {
+    font-size: 36px !important;
+    line-height: 35px !important;
+    max-width: 500px;
+    line-height: 35px;
+    right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-transform: uppercase;
+    -webkit-text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1882352941);
+    -moz-text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1882352941);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1882352941); }
+
 /* Interactive banner 2 block, using style 2 */
+.ult-ib-effect-style2 h2 {
+  font-family: "Gotham Bold", Helvetica, Arial, Verdana, sans-serif !important; }
+
 .ult-ib-effect-style2:hover .ult-new-ib-title {
-  transform: translate3d(0, 0px, 0); }
+  transform: translate3d(0, -50%, 0) !important;
+  /* remove heading animation when hover. */ }
 
 /**
 *
