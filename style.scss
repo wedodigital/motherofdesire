@@ -78,6 +78,14 @@ h3,h5,h6{
 	font-family: $body-normal-font;
 }
 
+#content {
+    a {
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
 
 /**
 *
