@@ -26,6 +26,7 @@ $font-leading-lg: 2.75rem;
 $font-leading-md: 2rem;
 $font-leading-default: 1.625rem;
 $font-leading-sm: 1.1875rem;
+$font-leading-xs: 0.75rem;
 
 
 html, body, body.page, .wf-container > *{
@@ -71,8 +72,14 @@ html, body, body.page, .wf-container > *{
     color: white;
 }
 
+
 h4 {
     font-family: $heading-font;
+}
+
+h4, .h4-size, .entry-title.h4-size, h3.entry-title, .dt-accordion-h4-size .wpb_accordion_header > a, .vc_separator h4{
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 h3,h5,h6 {
@@ -86,6 +93,9 @@ h3,h5,h6 {
     a:hover{
         text-decoration: underline;
     }
+    a.vc_btn3:hover {
+        text-decoration: none;
+    }   
 }
 
 .hero {
@@ -102,7 +112,7 @@ h3,h5,h6 {
 **/
 .content {
     ul {
-        margin-left: 70px;
+        margin-left: 20px;
     }
     ul li{
         margin-bottom: 20px;
@@ -123,11 +133,11 @@ h3,h5,h6 {
 input[type="text"], input[type="search"], input[type="tel"], input[type="url"], input[type="email"], input[type="number"], input[type="date"], input[type="range"], input[type="password"], select, textarea, .wpcf7-number {
     color: #1e252b;
     border-color: transparent;
-    background-color: #ffffff;
     border-radius: 0;
     padding: 0 10px !important;
     font-family: $body-normal-font !important;
     font-size: 16px !important;
+    line-height: 26px !important;
 }
 
 .gform_wrapper .gform_footer{
@@ -154,7 +164,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
 
 
 #main .gform_wrapper textarea, .gform_wrapper .top_label .gfield_label {
-    font: normal 13px / 24px $body-normal-font, Helvetica, Arial, Verdana, sans-serif;
+    font: normal 16px / 26px $body-normal-font, Helvetica, Arial, Verdana, sans-serif;
     text-transform: uppercase;
 }
 
@@ -223,7 +233,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
     .ult-new-ib-title {
         font-size: $font-size-lg !important;
         font-weight: 700 !important;
-        line-height: 35px !important;
+        line-height: 40px !important;
         max-width: 500px;
         right: 0 !important;
         margin-left: auto !important;
@@ -270,7 +280,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 
 .iso-grid.iso-item-ready article, .load-wrap, .mode-grid article, body #load {
     height: 100%;
-    background-color: #1e252b;
+    background-color: #fef3f2;
 }
 
 .blog-content.wf-td {
@@ -278,16 +288,22 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 }
 
 .blog-content.wf-td h3 a {
-    color: $gold-color;
-    -webkit-text-fill-color: $gold-color;
-
+    color: $main-color;
+    -webkit-text-fill-color: $main-color;
     font-family: $heading-font;
-    font-style: italic;
+}
+
+.blog-shortcode.blog-masonry-shortcode-id-1 .entry-title{
+    font-family: $heading-font;
+}
+
+.post.bg-on, .post.bg-on.fullwidth-img.format-quote, .post.bg-on.fullwidth-img.format-link {
+    background-color: #fef3f2;
 }
 
 .comment-metadata, .comment-metadata a, .entry-meta a, .entry-meta span, .entry-meta a *, .single .entry-tags, .single .entry-tags a {
-    color: #adb0b6;
-    font-size: 10px;
+    color: $gray-color;
+    font-size: $font-leading-xs;
 }
 
 .checkmark ul{
@@ -307,6 +323,21 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
     width: 50px;
     position: absolute;
     left: 20px;
+}
+
+.layzr-loading-on .iso-lazy-load {
+    width: 100%;
+}
+
+.blog-content .entry-meta {
+    .category-link, .author.vcard, .comment-link {
+        display: none;
+    }
+}
+
+
+.portfolio-categories > a:after, .portfolio-categories > span:after, .entry-meta > a:after, .entry-meta > span:after{
+    background-color: transparent;
 }
 
 /**
@@ -397,11 +428,21 @@ span.text-secondary.color-secondary{
 
 h1.fancy-title.entry-title.start-animation-done.start-animation {
     background: #dab67a96;
-    padding: 40px 0;
+    padding: 40px;
     max-width: 800px;
     margin: 0 auto;
     font-size: 42px !important;
     line-height: 52px !important;
+}
+
+.vc_btn3.vc_btn3-color-orange, .vc_btn3.vc_btn3-color-orange.vc_btn3-style-flat {
+    background-color: $gold-color !important;
+    color: $main-color !important;
+}
+
+.vc_btn3.vc_btn3-color-orange.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-orange.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-orange:focus, .vc_btn3.vc_btn3-color-orange:hover{
+    background-color: $main-color !important;
+    color: white !important;
 }
 
 /**
