@@ -23,6 +23,7 @@ html, body, body.page, .wf-container > * {
 
 /**
 *
+
 *Typography CSS
 *
 **/
@@ -51,6 +52,20 @@ h3, h5, h6 {
   text-decoration: none; }
 #content a:hover {
   text-decoration: underline; }
+
+.hero p, .hero ul li {
+  font-size: 1rem;
+  line-height: 1.8rem; }
+
+/**
+*
+*Content CSS
+*
+**/
+.content ul {
+  margin-left: 70px; }
+.content ul li {
+  margin-bottom: 20px; }
 
 /**
 *
@@ -100,9 +115,16 @@ blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-sty
   font-family: "Playfair Display", Helvetica, Arial, Verdana, sans-serif;
   font-style: italic;
   text-transform: none;
-  border-left: 4px #efcb73 solid;
+  border-left: 0;
   border-radius: 0;
-  margin: 30px; }
+  margin: 0; }
+
+blockquote p, blockquote .hero p {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3.2rem; }
+blockquote h1 {
+  font-style: italic; }
 
 /**
 *
@@ -134,7 +156,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
   margin-bottom: 0 !important;
   max-height: 600px !important; }
   .ult-new-ib .ult-new-ib-title {
-    font-size: 36px !important;
+    font-size: 2.25rem !important;
     font-weight: 700 !important;
     line-height: 35px !important;
     max-width: 500px;
@@ -212,8 +234,8 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
   font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
   font-style: italic;
   text-align: center;
-  font-size: 24px;
-  line-height: 32px; }
+  font-size: 1.5rem;
+  line-height: 2rem; }
 
 .testimonial-desc {
   text-align: center;
@@ -298,7 +320,7 @@ h1.fancy-title.entry-title.start-animation-done.start-animation {
     line-height: 40px; }
 
   h2, .h2-size, .entry-title.h2-size, h1.entry-title, .dt-accordion-h2-size .wpb_accordion_header > a {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px; } }
 /*IPHONE 5 VERTICAL VIEW*/
 

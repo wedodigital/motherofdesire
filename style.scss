@@ -15,17 +15,17 @@ $main-color: #1e252b;
 $gray-color: #9a9a9a;
 $gold-color: #efcb73;
 
-$font-size-xlg: 46px;
-$font-size-lg: 36px;
-$font-size-md: 24px;
-$font-size-default: 16px;
-$font-size-sm: 12px;
+$font-size-xlg: 2.875rem;
+$font-size-lg: 2.25rem;
+$font-size-md: 1.5rem;
+$font-size-default: 1rem;
+$font-size-sm: 0.75rem;
 
-$font-leading-xlg: 56px;
-$font-leading-lg: 44px;
-$font-leading-md: 32px;
-$font-leading-default: 26px;
-$font-leading-sm: 19px;
+$font-leading-xlg: 3.5rem;
+$font-leading-lg: 2.75rem;
+$font-leading-md: 2rem;
+$font-leading-default: 1.625rem;
+$font-leading-sm: 1.1875rem;
 
 
 html, body, body.page, .wf-container > *{
@@ -46,11 +46,12 @@ html, body, body.page, .wf-container > *{
 
 /**
 *
+
 *Typography CSS
 *
 **/
 
-.playfair, .playfair *{
+.playfair, .playfair * {
         font-family: $heading-font;
 }
 
@@ -58,23 +59,23 @@ html, body, body.page, .wf-container > *{
     color: #EBCC75;
 }
 
-
-.kern, .kern *{
+.kern, .kern * {
     letter-spacing: 2px;
 }
 
-.uppercase, .uppercase *{
+.uppercase, .uppercase * {
     text-transform: uppercase;
 }
 
-.white-scheme, .white-scheme *{
+.white-scheme, .white-scheme * {
     color: white;
 }
 
-h4{
+h4 {
     font-family: $heading-font;
 }
-h3,h5,h6{
+
+h3,h5,h6 {
 	font-family: $body-normal-font;
 }
 
@@ -87,6 +88,26 @@ h3,h5,h6{
     }
 }
 
+.hero {
+    p, ul li {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+}
+
+/**
+*
+*Content CSS
+*
+**/
+.content {
+    ul {
+        margin-left: 70px;
+    }
+    ul li{
+        margin-bottom: 20px;
+    }
+}
 
 
 /**
@@ -148,9 +169,20 @@ blockquote:not(.shortcode-blockquote), blockquote.shortcode-blockquote.block-sty
     font-family: $heading-font;
     font-style: italic;
     text-transform: none;
-    border-left: 4px $gold-color solid;
+    border-left:0;
     border-radius: 0;
-    margin: 30px;
+    margin: 0;
+}
+
+blockquote {
+    p, .hero p{
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+    h1 {
+        font-style: italic;
+    }
 }
 
 /**
