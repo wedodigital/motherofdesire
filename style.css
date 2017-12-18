@@ -8,11 +8,12 @@ Version: 1.0.0
 License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
 Template: dt-the7
 */
+/* "Futura PT", Helvetica, Arial, Verdana, sans-serif; */
 html, body, body.page, .wf-container > * {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif; }
+  font-family: "Khula", sans-serif; }
 
 .main-nav > li > a .menu-text, .mobile-main-nav li > a .menu-text, .main-nav .sub-nav > li > a .menu-text {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Khula", sans-serif;
   letter-spacing: 2px; }
 
 .mobile-main-nav li > a .menu-text, .main-nav .sub-nav > li > a .menu-text {
@@ -50,7 +51,7 @@ h4, .h4-size, .entry-title.h4-size, h3.entry-title, .dt-accordion-h4-size .wpb_a
   line-height: 2rem; }
 
 h3, h5, h6 {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif; }
+  font-family: "Khula", sans-serif; }
 
 #content a {
   text-decoration: none; }
@@ -86,7 +87,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
   border-color: transparent;
   border-radius: 0;
   padding: 0 10px !important;
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important;
+  font-family: "Khula", sans-serif !important;
   font-size: 16px !important;
   line-height: 26px !important; }
 
@@ -108,7 +109,7 @@ input[type="text"], input[type="search"], input[type="tel"], input[type="url"], 
   margin-top: -25px; }
 
 #main .gform_wrapper textarea, .gform_wrapper .top_label .gfield_label {
-  font: normal 16px/26px "Futura PT", Helvetica, Arial, Verdana, sans-serif, Helvetica, Arial, Verdana, sans-serif;
+  font: normal 16px/26px "Khula", sans-serif, Helvetica, Arial, Verdana, sans-serif;
   text-transform: uppercase; }
 
 /**
@@ -140,7 +141,7 @@ blockquote h1 {
 button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widget .dt-form .dt-btn, input[type="button"], input[type="reset"], .wpcf7-submit, .nsu-submit, .dt-wc-btn, input#place_order, .woocommerce-Reviews .submit, input.button, .cart-btn-below-img .woo-buttons a, input[name="save_address"], .wc-layout-list .woo-buttons a, .post-password-form input[type="submit"], .mc4wp-form input[type="submit"], div.mc4wp-form button[type="submit"], .tml-submit-wrap input[type="submit"], .wpcf7-form input[type="submit"], input[type="submit"]:not([name="update_cart"]) {
   color: #1e252b;
   background-color: #efcb73;
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important;
+  font-family: "Khula", sans-serif !important;
   text-transform: uppercase !important;
   letter-spacing: 2px;
   border-radius: 0 !important;
@@ -149,7 +150,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
   margin: 0 !important; }
 
 .vc_btn3 {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important;
+  font-family: "Khula", sans-serif !important;
   text-transform: uppercase; }
 
 /***
@@ -175,7 +176,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1882352941); }
 
 .ult-ib-effect-style2 h2 {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif !important; }
+  font-family: "Khula", sans-serif !important; }
 
 .ult-ib-effect-style2:hover .ult-new-ib-title {
   transform: translate3d(0, -50%, 0) !important;
@@ -251,7 +252,7 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
   background-color: transparent; }
 
 .testimonial-content {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Khula", sans-serif;
   font-style: italic;
   text-align: center;
   font-size: 1.5rem;
@@ -264,14 +265,14 @@ button.button, a.button, .dt-form button, #page .widget .dt-form .dt-btn, .widge
 .testimonial-desc {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Khula", sans-serif;
   font-weight: 400 !important; }
 
 .testimonial-vcard .text-secondary {
   font-weight: 400; }
 
 .dt-testimonials-shortcode .testimonial-vcard .text-primary {
-  font-family: "Futura PT", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Khula", sans-serif;
   text-transform: uppercase; }
 
 span.text-primary {

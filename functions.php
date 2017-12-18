@@ -9,6 +9,8 @@
 function load_custom_wp_admin_style() { //FOR ADMIN
         wp_register_style( 'custom_wp_admin_css', get_stylesheet_directory_uri() . '/admin-style.css');
         wp_enqueue_style( 'custom_wp_admin_css' );
+
+        wp_enqueue_style( 'Khula-font', 'https://fonts.googleapis.com/css?family=Khula:300,400,700');
         wp_register_style( 'font_css', get_stylesheet_directory_uri() . '/fonts.css');
         wp_enqueue_style( 'font_css' );
 }
@@ -16,6 +18,8 @@ function load_custom_wp_admin_style() { //FOR ADMIN
 add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
 
 function load_custom_wp_style_script() { //FOR FRONT DESIGN
+		wp_enqueue_style( 'Khula-font', 'https://fonts.googleapis.com/css?family=Khula:300,400,700');
+
         wp_register_style( 'font_css', get_stylesheet_directory_uri() . '/fonts.css');
         wp_enqueue_style( 'font_css' );
 }
